@@ -1,9 +1,4 @@
 <?php
-$start_date =   null;
-$end_date   =   null;
-$interval   =   null;
-$format     =   null;
-
 $cars = array (
     array("Volvo",22,18),
     array("BMW",15,13),
@@ -24,19 +19,3 @@ for ($row = 0; $row < 4; $row++) {
     echo "</ul>";
   }
 ?>
-
-<!-- Write a program that takes four arguments - 
-startdate, 
-enddate
-and interval (n number of days)
-such that it returns an array of dates separated by the internal in any format specified in the 4th arguments.
-StartDate: 2023-01-01, EndDate: 2023-01-31, Interval: 2, format:"m/d/Y"
-Results:
-array( array(
-"01/01/2023",
-"01/03/2023" ),
-array( "01/04/2023", "01/06/2023"
-)
-...
-# till 2023-01-31
-) -->
