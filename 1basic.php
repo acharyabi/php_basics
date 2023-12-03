@@ -2,6 +2,7 @@
 <?php
     echo"I like pizza very much.<br>";
     echo"It's really good";
+    echo'Hello','','World';
     //  This is a comment.
     /*  This
         is
